@@ -1,0 +1,42 @@
+{
+  "name": "projeto-06-zoofunctions",
+  "version": "1.0.0",
+  "description": "Oi. Este foi um dos projetos que eu fiz durante meu curso na Trybe. Confira os detalhes dele abaixo.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage test/*"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "**/src/handlerElephants.js",
+      "**/src/getOpeningHours.js"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.js?(x)",
+      "**/evaluator/**/*.test.js?(x)"
+    ],
+    "testTimeout": 30000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoSayago/projeto-06-ZooFunctions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoSayago/projeto-06-ZooFunctions/issues"
+  },
+  "homepage": "https://github.com/BrunoSayago/projeto-06-ZooFunctions#readme",
+  "dependencies": {
+    "jest": "^29.4.2"
+  }
+}
