@@ -22,4 +22,7 @@ Comando para clonar o projeto:
  
 Se necessário, instalar as dependências:
  - `npm install`
+ 
+Para rodar os testes de cobertura:
+ - `npm run test:coverage`
   
